@@ -1080,8 +1080,10 @@ vine==5.1.0
     #   amqp
     #   celery
     #   kombu
-virtualenv==20.29.2
-    # via pre-commit
+virtualenv==20.36.1
+    # via
+    #   -r requirements/development.in
+    #   pre-commit
 watchdog==6.0.0
     # via
     #   -c requirements/base-constraint.txt
