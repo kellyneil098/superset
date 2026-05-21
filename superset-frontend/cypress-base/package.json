@@ -34,6 +34,7 @@
     "tscw-config": "^1.1.2"
   },
   "overrides": {
+    "@cypress/request": "^3.0.0",
     "cypress": {
       "form-data": "^2.3.4"
     }
