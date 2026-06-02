@@ -390,6 +390,7 @@
   "overrides": {
     "axios": "^1.16.0",
     "core-js": "^3.38.1",
+    "postcss": "^8.5.10",
     "puppeteer": "^22.4.1",
     "remark-gfm": "^3.0.1",
     "underscore": "^1.13.7",
