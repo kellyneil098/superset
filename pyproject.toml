@@ -213,7 +213,8 @@ development = [
     "grpcio>=1.55.3",
     "openapi-spec-validator",
     "parameterized",
-    "pip",
+    # Security: GHSA-6vgw-5pg2-w6jp - pip Path Traversal vulnerability (< 26.0)
+    "pip>=26.0",
     "pre-commit",
     "progress>=1.5,<2",
     "psutil",
